@@ -56,3 +56,24 @@
        myFun();
        console.log(typeof myFun);
         console.log("**********************************");
+
+        //primitive(stack) and non-primitive(heap)
+
+        let name="Raushan";
+        let newName=name;
+        newName="Rohit";
+        console.log(name);
+        console.log(newName);
+
+
+        console.log("===============================");
+
+    let userOne = {
+       email : "r@gmil.com",
+       upi : "user@id",
+    }
+    let userTwo = userOne
+    userTwo.email="a@gmail"
+
+    console.log(userOne.email);
+    console.log(userTwo.email);
