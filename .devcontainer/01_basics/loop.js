@@ -27,11 +27,31 @@
 // }
 
 //do while loop
-let score=1;
+// let score=1;
 
-do{
-    console.log(score);
-    score++;
+// do{
+//     console.log(score);
+//     score++;
     
 
-}while(score<=10);
+// }while(score<=10);
+
+//for of loop
+// const array=[1,3,4,6,7,3];
+// for (const element of array) {
+//     console.log(element);
+    
+// }
+
+//Map
+const map = new Map();
+map.set('IN', "India");
+map.set('usa',"united state of america");
+map.set('fr',"franch");
+
+for (const [key,value] of map) {
+console.log(key, '-', value);
+
+    
+}
+//console.log(map);//it not takes duplicate value
